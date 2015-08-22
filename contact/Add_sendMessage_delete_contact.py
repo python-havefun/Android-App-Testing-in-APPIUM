@@ -66,6 +66,5 @@ class Contact_test(unittest.TestCase):
         self.driver.find_element_by_name("OK").click()
 
 if __name__ == "__main__":
-    #import sys;sys.argv = ['', 'Test.testName']
     suit= unittest.TestLoader().loadTestsFromTestCase(Contact_test)
     unittest.TextTestRunner(verbosity=2).run(suit)
